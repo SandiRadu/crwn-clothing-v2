@@ -36,7 +36,7 @@ const categories = [
     },
   ];
 
-export const Directory = ({ categories }) => {
+export const Directory = () => {
   return (
     <DirectoryContainer>
       {categories.map((category) => (
